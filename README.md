@@ -15,10 +15,10 @@ AWS Glue Crawler → AWS Athena (Querying Engine) → Amazon QuickSight (Visuali
 1. Log in as a Root User (not recommended for production; use an IAM admin instead).
 2. Create an IAM User to securely access AWS services.
 3. Assign necessary IAM policies:
-AmazonS3FullAccess
-AWSGlueFullAccess
-AmazonAthenaFullAccess
-AmazonQuickSightFullAccess
+AmazonS3FullAccess, 
+AWSGlueFullAccess, 
+AmazonAthenaFullAccess, 
+AmazonQuickSightFullAccess, 
 AWSQuickSightDescribeRDS
 ### 3. S3 Bucket Setup
 1. Create an S3 bucket: spotify-aws-project
@@ -50,11 +50,11 @@ AWSQuickSightDescribeRDS
 1. Connect QuickSight to Athena for interactive dashboards.
 2. Create visualizations, trends, and insights from Spotify data.
 ## Technologies Used
-Storage: Amazon S3
-ETL Processing: AWS Glue
-Data Catalog & Querying: AWS Glue Crawlers, AWS Athena
-Visualization: Amazon QuickSight
-Access Management: AWS IAM
+1. Storage: Amazon S3
+2. ETL Processing: AWS Glue
+3. Data Catalog & Querying: AWS Glue Crawlers, AWS Athena
+4. Visualization: Amazon QuickSight
+5. Access Management: AWS IAM
 ## Future Enhancements
 1. Automate the pipeline using AWS Step Functions.
 2. Implement real-time streaming with AWS Kinesis.
