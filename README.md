@@ -5,6 +5,9 @@ This project builds an ETL pipeline using AWS services to process and analyze th
 ## Architecture
 The pipeline follows the following architecture:
 
+![image](https://github.com/user-attachments/assets/25f10608-fbe0-4f48-b9f7-10fb21898cf0)
+
+
 S3 (Staging Area) → AWS Glue (ETL Processing) → S3 (Data Warehouse) → AWS Glue Crawler → AWS Athena (Querying Engine) → Amazon QuickSight (Visualization)
 ## Steps to Implement
 ### 1. Data Ingestion
