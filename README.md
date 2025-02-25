@@ -5,8 +5,7 @@ This project builds an ETL pipeline using AWS services to process and analyze th
 ## Architecture
 The pipeline follows the following architecture:
 
-S3 (Staging Area) → AWS Glue (ETL Processing) → S3 (Data Warehouse)
-AWS Glue Crawler → AWS Athena (Querying Engine) → Amazon QuickSight (Visualization)
+S3 (Staging Area) → AWS Glue (ETL Processing) → S3 (Data Warehouse) → AWS Glue Crawler → AWS Athena (Querying Engine) → Amazon QuickSight (Visualization)
 ## Steps to Implement
 ### 1. Data Ingestion
 1. Download the Spotify Dataset (2023) from Kaggle.
